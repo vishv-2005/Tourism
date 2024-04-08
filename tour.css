@@ -1,0 +1,181 @@
+h1
+{
+font-family: YourCursiveFont sans-serif;
+text-align:center;
+}
+
+
+.carousel-container {
+  position: relative;
+  overflow: hidden;
+  max-width: auto;
+  max-height: 500px;
+  margin: 0 auto;
+}
+
+.carousel-slide {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+}
+
+.carousel-caption {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 5px 10px;
+  font-size: 16px;
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+
+
+
+
+.like-button  {
+  
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  margin-left: 80px;
+}
+
+.heart {
+  font-size: 30px;
+  transition: color 0.3s ease;
+  
+}
+
+.heart.clicked {
+  color: red; 
+}
+
+.first{
+	border-radius: 25px;
+	transition:padding 1s ease;
+}
+.first:hover{
+	padding:10px;
+
+}
+
+#royal{
+	margin-left:30px;
+	margin-top:50px;
+	padding:-20px;
+	font-size:20px;
+	float:left;
+	margin-right:50px;
+}
+.second{
+	border-radius: 25px;
+		transition:padding 1s ease;
+}
+.second:hover{
+	padding:10px;
+
+}
+
+
+
+#goa{
+	
+	margin-top:50px;
+	padding:-20px;
+	font-size:20px;
+	margin-right:50px;
+	float:left;
+}
+
+.third{
+	border-radius: 25px;
+	transition:padding 1s ease;
+}
+.third:hover{
+	padding:10px;
+
+}
+
+
+
+#manali{
+	
+	margin-top:50px;
+	padding:-20px;
+	font-size:20px;
+	margin-right:50px;
+	float:left;
+}
+
+.four{
+	border-radius: 25px;
+	transition:padding 1s ease;
+}
+.four:hover{
+	padding:10px;
+
+}
+
+
+
+#kashmir{
+	
+	margin-top:50px;
+	padding:-20px;
+	font-size:20px;
+	float:left;
+}
+.fifth{
+	border-radius: 25px;
+	transition:padding 1s ease;
+}
+.fifth:hover{
+	padding:10px;
+
+}
+
+
+#simla{
+	
+	padding-top:50px;
+	font-size:20px;
+	margin-left:30px;
+	clear:both;
+}
+
+
+<!--about us-->
+
+#back {
+	background-color: red;
+}
